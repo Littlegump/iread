@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Clock from './components/Clock.js';
 
 class App extends Component {
   render() {
@@ -8,11 +9,17 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">__你就像__生命</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1 className="App-intro">
+          知道你要来，又不能空着走.
+        </h1>
+        <h3 className="App-intro">
+          至少时间会动
+        </h3>
+        <div>
+          <Clock />
+        </div>
       </div>
     );
   }
