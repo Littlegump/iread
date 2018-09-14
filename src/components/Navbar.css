@@ -1,0 +1,33 @@
+/* author: yinkaixuan0213@gmail.com
+Time: 20180914 11:55 */
+
+
+.My-header-ul {
+  text-align:center
+}
+
+ul {
+  /* background-color: white; */
+  margin: 15px auto 20px auto;
+  border: 20px hidden black;
+  height: 40px;
+  width: auto;
+}
+
+li {
+  margin: 100px auto 20px 20px;
+  border: 20px hidden black;
+  padding: 20;
+  position: relative;
+  display: inline;
+}
+
+a {
+  margin: 100px auto 20px 20px;
+  border: 20px hidden black;
+  text-decoration: none;
+  color: black;
+  padding: 20;
+  position: relative;
+  display: inline;
+}
