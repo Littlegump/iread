@@ -25,7 +25,7 @@ li {
 
 a {
   /* margin: 100px auto 20px auto; */
-  margin: 100px auto 20px 5px;
+  margin: 100px auto 20px auto;
   border: 20px hidden black;
   text-decoration: none;
   color: black;
